@@ -29,10 +29,13 @@ public static void main(String[] args) {
 	 * 
 	 * 
 	 * Cesitli komutlar:
-	 * 1.git log = version'lari gÃ¶sterir
+	 * 1.git log = version'lari gösterir
 	 * 
 	 * 
-	 * 
+	 * Degisiklikleri kaydetme
+	 * 1.git add .
+	 * 2.git commit -m "Mesaj buraya"
+	 * 3.git push
 	 * 
 	 */
 

@@ -46,6 +46,9 @@ public static void main(String[] args) {
 	
 	System.out.println("ismail hocam senin icin yapiyorum");
 		System.out.println("deneme");
+		
+		
+		System.out.println("son deneme");
 
 }
 }

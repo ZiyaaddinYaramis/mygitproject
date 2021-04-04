@@ -29,7 +29,7 @@ public static void main(String[] args) {
 	 * 
 	 * 
 	 * Cesitli komutlar:
-	 * 1.git log = version'lari gösterir
+	 * 1.git log = version'lari gÃ¶sterir
 	 * 
 	 * 
 	 * Degisiklikleri kaydetme
@@ -45,7 +45,7 @@ public static void main(String[] args) {
 	System.out.println("42. satir");
 	
 	System.out.println("ismail hocam senin icin yapiyorum");
-		
+		System.out.println("deneme");
 
 }
 }

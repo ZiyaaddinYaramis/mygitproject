@@ -18,7 +18,10 @@ public static void main(String[] args) {
 	 * 7.git commit -m "mesaj buraya yazilir"
 	 */
 
-	System.out.println("uzak sunucudaki kodum")
+	System.out.println("uzak sunucudaki kodum");
+	
+	System.out.println("uzak sunucudaki kodum");
+		
 
 }
 }

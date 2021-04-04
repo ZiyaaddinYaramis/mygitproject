@@ -1,0 +1,267 @@
+
+  	1. Local bilgisayarimizda olan kodlari githuba (remote repository) gonderme:
+  
+ 		*****KOMUTLAR*******
+ 	    
+ 	    
+ 	    git log = version'lari gosterir
+ 	
+		git init        :    Projenin en basinda Tek sefer kullanilir
+	Projenin icindeyken, git init dedigimizde, .git folderi olusur.
+	Bu folderda git bilgilerimiz saklanir. Kisaca local repository olusturur
+
+	---------
+	1. Proje olusturduk         
+	2. Terminalde projenin icine girdik : cd path
+	3. .git dosyasi olusturduk          : git init (tek sefer yapilir)
+	---------
+	
+	
+	git add .
+	git commit -m "ilk commit"
+
+	An itibariyle ilk versiyonumu olusturdum
+	Kodlarimi github a gonderebilirim
+	
+	NOTE: ILK OLARAK GITHUB.COM DA REMOTE REPOSITORY OLUSTURMAM GEREKIR
+	
+	---GITHUB DA REPOSITORY NASIL OLUSTURULUR----
+	Assagidaki islemler tek seferligine yapilir
+	https://github.com/
+	New e tikla
+	Repository Name : mygitproject
+	Public yapalim
+	Create repository ye tikla
+	
+	Github'daki son 2 adimi yapalim:
+	
+	1.Adim 
+	git remote add origin https://github.com/techproed/mygitproject.git  : Bu islem projeyi ilk sefer github a gondermek icin zorunludur. 
+	Sonraki islemlerde bu adima gerek olmayacak
+	
+	2.Adim
+	NOTE: "main" kismini assaigidaki gibi "master" ile degistirelim
+	git push -u origin master   : Bu islem ilk olarak tek seferlik yapilir 
+	
+	Sayfayayi yenileyelim
+	
+	Local bilgisayarimdaki kodlar github.com a copyalanmis oldu
+
+
+
+
+
+		===================HATA ALAN ARKADASLAR ICIN========================
+		git config credential.username "git username"
+		git config credential.username "techproed"
+		git config credential.username "kullanici adi"
+		git config credential.password "12345"
+		git remote add origin https://github.com/techproed/mygitproject.git
+		git push -u origin master
+		==================================================================
+		
+		
+		
+		BU ADIMDAN SONRAKI ISLEMLER HER SEFERINDE TEKRAR EDILEN ISLEMLERDIR
+		
+		///////////////////////////////////
+ 		* git add .                         /
+ 		* git commit -m "version mesaji"  	/
+ 		* git push                          /
+		///////////////////////////////////
+		 
+		Ornek adimlar
+    	Kod ekle
+    	git status (zorunlu degil)-> kirmiziliklar bilgisayarimdaki degisiklikleri gosteriyor
+    	git add . -> staging area ya kodlarmi ekle
+    	git status (zorunlu degil)-> yesil renkler kodlarin staging area da oldugunu gosterir
+    	git commit -m "ISTEGINMIZ MESAJI VEREBILIRIZ" -> yeni versiyon olusturdum. Staging area daki kodlari local repoya ekler
+    	git status (zorunlu degil)-> kirmiziliklar bilgisayarimdaki degisiklikleri gosteriyor
+    	git push -> github a yeni versiyonlarimizi gonderiyoruz
+    	
+		========================================================================
+			DAY 2
+			TEKRAR:
+			
+			
+			
+		Git Nedir?
+		----------------------
+		V1.0.0
+		V1.0.1
+		V1.0.2
+		Git farkli versiyonlari bilgisayarimizda depolamamizi saglar
+		Ayni projelerde takim halinde birlikte calismamizi saglar
+		Yuzde 90 dan fazlasi github kullanir
+		Git hub ucretsiz
+		Hizli
+		Mucrosoft guthubu satin aldi
+	
+	
+	
+	
+		----Githubi nasil kullaniriz?
+	Command Line, Terminal, Git Bash,...
+	IDE(eclipse, intellij, VSCode,..) lerin terminalleri
+	SourceTree
+	
+	
+	
+	
+	
+	
+		---Git in bilgisayarimizda yuklu olup olmadiginiz nasil anlariz?
+		git --version
+		
+		
+		
+		
+		
+		
+		---Github Projelerini Uzak sunucuya nasil gonderebilir?
+		
+			a. ILK VERSIYONUN GITHUB'A GÖNDERILMESI:
+			
+    	*cd projeyolu 				-> Projenin icinde oldugumuzdan emin olalim
+        							   cd /Users/techproed/eclipse-workspace/mygitproject
+    	*git init 					-> .git dosyasi olusturur
+    	*git status 				-> degisikleri goruyoruz. zorunlu degil.
+    	*git add . 					-> staging areaya kodlarim gitti
+    	*git commit -m "mesajim" 	-> yeni versiyon olusturdum
+    	*git remote add origin https://github.com/techproed/mygitproject.git -> kodlarin gidecegi linki tanitiyorum
+    	*git push -u origin master 	-> kodlarim uzak sunucuya gider
+    	
+    	
+    	
+    	
+    	
+			b. SONRAKI VERSIYONLARIN OLUSMASI VE GITHUB'A GÖNDERILMESI
+    	*git add .
+    	*git commit -m "mesajim"
+    	*git push
+    	
+    	
+    	
+    	
+			------------------------
+		KOD AKISI:
+		Proje Dosyasi(Eclipse)=>git add .
+							  =>Staging Area(Gecici Bellek)
+							  =>git commit -m "mesajim"
+							  =>Local Repository(yerel depo)
+							  =>git push=>Remote Repository(Uzak Sunucu)
+
+
+
+
+
+
+			=======GITHUB KODLARINI BILGISAYIMA NASIL ALIRIM====================
+			
+			
+			
+	Ozellikle Takim calismalarinda, takim arkadaslarimin yazdigi kodlari bilgisarima alip, 
+	bilgisayimi guncellemem gerekir
+	
+	Github.com da degisiklik oldugunda, o degislileri kendi bilgiyarima almam gerekir
+	
+	
+	
+	
+	
+	
+ 		Uzak sunucumda  degisiklik yapalim:
+ 	
+    	java dosyasina gidelim (Github)
+    	kalem isaretine basalim
+    	sonraki satira yeni kod ekleyelim
+    	commit changes e tikladik
+        Bu islemlerden sonra uzak sunucumda yeni versiyon olustu
+
+
+
+       Yeni versiyonu kendi bilgisayirima cekmem gerekir:
+       
+       
+       
+  
+ 			Projenin icinde oldugunuzdan emin olun
+ 			
+	================================================
+    *git fetch -> github'daki kodlari local repository' e alir ama kodlari birlestirmez
+    *git merge -> githubdaki codlari bilgisayarimizdaki kodlarla birlestirir
+    *git pull = git fetch + git merge          
+	================================================
+
+
+
+
+
+
+ 		*****Interview sorusu: git merge ile git pull arasindaki fark nedir?
+		git merge SADECE kod birlestirme islemi yapar
+		git pull = git fetch + git merge
+		
+		
+		
+		
+		
+		
+		
+			====HATA DURUMLARI================
+			
+			
+			
+			
+ 			* Takim calismalarinda farkli kisiler ayni satirlara kod yazmissa 
+ 			  kodlari birlestirme sirasinda hata olusur
+
+			SENARYO:
+			
+ 			GITHUB 12.satir  : kod ekledik
+ 			ECLIPSE 12.satir : kod ekle ve versiyon olustur
+ 			
+ 			
+		Bu durumda git push YAPAMAM. Sebebi guthub.com daki guncel kodlari bilgisayarima almam gerekir
+
+		Github'daki kodlari bilgisayara alalim:
+		
+    	*git fetch
+    	*git merge ---->>>>CONFLICT OLUSUR
+	
+		Replace Editor Content Gorurseniz o secenege tiklayin
+	
+	
+	
+	
+		CONFLICT NASIL COZULUR?
+	Sadece karakterlerin oldugu satirlari silebiliriz
+	SAVE edelim
+	
+	
+	Yeni versiyon olusturup githuba kod gonderecez
+    *git add .
+    *git commit -m "mesajim"
+    *git push
+	AN itibaruyle hata almamam gerekir. Kodlari birlestirip gonderme islemi tamamlandi
+	
+	ONEMLI OLAN : git pull before you push
+              Kodlari gondermeden once kodlari cek
+              
+              
+	EGER CONFLICT YOKSA YENI KOD EKLEYIP GONDEREBILIRIM
+	EGER AYNI SATIRDA FARKLI KODLARDAN DOLAYI CONFLICT VARSA
+	ELLE DUZELT
+	SAVE
+	git add .
+	git commit -m "conglict cozuldu"
+	git push
+	
+	
+	Kodlari merge ettigimizde Conflict oluşursa sırasıyla su adamlar yapilabilir;
+	
+	-Localimdeki ayni satirdaki kodlari sil veya düzenle
+	-Githubdaki kodlari cek
+	-Localine kodlari ekle, versiyon oluştur ve githuba gonder
+	
+	

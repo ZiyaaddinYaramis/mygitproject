@@ -39,7 +39,9 @@ public static void main(String[] args) {
 	System.out.println("uzak sunucudaki kodum");
 	System.out.println("uzak sunucudaki kodum1");
 	System.out.println("pratic");
-	System.out.println("42. satir")
+	System.out.println("42. satir");
+	
+	System.out.println("ismail hocam senin icin yapiyorum");
 		
 
 }

@@ -47,8 +47,9 @@ public static void main(String[] args) {
 	  8.git remote add origin (kismi github'dan kopyalaniyor cmd ye atiliyor)
 	  
 	  
-	  		git remote add origin https://github.com/techproed/mygitproject.git  
-	  
+	  		resime bakabilirsin.
+	  git remote add origin https://github.com/ZiyaaddinYaramis/winter2021turkish.git
+	  		
 	  		: Bu islem projeyi ilk sefer github a gondermek icin zorunludur. 
 			Sonraki islemlerde bu adima gerek olmayacak
 	   

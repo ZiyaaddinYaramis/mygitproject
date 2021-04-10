@@ -254,11 +254,11 @@
 	ELLE DUZELT
 	SAVE
 	git add .
-	git commit -m "conglict cozuldu"
+	git commit -m "conflict cozuldu"
 	git push
 	
 	
-	Kodlari merge ettigimizde Conflict oluşursa sırasıyla su adamlar yapilabilir;
+	Kodlari merge ettigimizde Conflict oluşursa sırasıyla su adimlar yapilabilir;
 	
 	-Localimdeki ayni satirdaki kodlari sil veya düzenle
 	-Githubdaki kodlari cek

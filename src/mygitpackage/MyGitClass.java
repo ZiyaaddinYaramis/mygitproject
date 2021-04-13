@@ -8,6 +8,8 @@ public static void main(String[] args) {
 	System.out.println("Version 1, 2, 3.commit");
 	
 	System.out.println("Ziya Branchinde yapilan kodlar");
+	
+	System.out.println("Ziya branch Metin Hoca");
 
 		
 	/* 

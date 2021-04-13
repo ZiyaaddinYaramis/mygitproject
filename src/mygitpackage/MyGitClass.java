@@ -9,7 +9,7 @@ public static void main(String[] args) {
 	
 	System.out.println("Ziya Branchinde yapilan kodlar");
 	
-	System.out.println("Ziya branch");
+	System.out.println("Ziya branchinde yazdim");
 
 		
 	/* 

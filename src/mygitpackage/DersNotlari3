@@ -1,4 +1,6 @@
 				Day3
+				
+				
 	Branches:
 
 	1)Master branch'de calisilmaz
@@ -50,21 +52,17 @@
 		git add .
 		git commit -m "mesaj"
 		git push -> KODLAR LOCAL BRACNHDE AMA MASTER BRANCDE DEGIL
+		
 		pull request
 		New Pull Request
 		Local branch ile master branchi karsilastir
 		Create pull request e tikla
 		Tekrar Create pull request e tikla
 		Merge Pull Request e tikla
-Congirm merge
-ISLEM TAMAM
+		Congirm merge
+		ISLEM TAMAM
 
-NOTE: LOCAL MASTERI GUNELLLEMEM GEREKIR
-git checkout master
-git pull
-AN ITIBARIYLE TUM BRANCHLER GUNCEL
-		
-		
-		
-
-
+		NOTE: LOCAL MASTERI GUNELLLEMEM GEREKIR
+		git checkout master
+		git pull
+		AN ITIBARIYLE TUM BRANCHLER GUNCEL

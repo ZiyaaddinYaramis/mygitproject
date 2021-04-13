@@ -57,7 +57,7 @@ public static void main(String[] args) {
 	   
 	  9.git push -u master (github a yeni versiyonlarimizi gonderiyoruz)
 	  
-	  
+	  	
 	  		NOTE: "main" kismini assaigidaki gibi "master" ile degistirelim
 			git push -u origin master   : Bu islem ilk olarak tek seferlik yapilir 
 			

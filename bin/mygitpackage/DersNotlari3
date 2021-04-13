@@ -1,0 +1,68 @@
+				Day3
+				
+				
+	Branches:
+
+	1)Master branch'de calisilmaz
+	2)Takim halinde calistigimizda herkes kendi branch(dal) ini olustururp o branchde calisir
+	3)Takim halinde calisirken karisikliklar olabilir bu karisikliklari 
+	onlemek icin giyhub bize  branchi kullanmamizi saglar
+	4)Ana govdedeki(master  branch) e sadece guvenli kontrol edilmis kodlar gonderilir
+	5)kod guvenligini saglamak icin
+	6)Sorumlulk yuklemek icin
+
+
+	Branch Komutlari:
+	
+	
+		1. tum branchleri gormek icin
+			git branch
+		master yada main (ikisinden birini görmeniz gerek)
+		
+		2. yeni branch olustur
+		git branch  branchismi
+			git branc ahmet ==> ahmet branch'i olusturur.
+			git branch feature ==> feature branch'i olusur
+			
+		3. Note: Local branch'i silmek icin;
+			git branch -d branchismi 
+			Örnek: git branch -d ahmet ==> ahmet branch'ini siler
+					
+		4. Baska branche gecmek icin:
+			git checkout branchismi
+			ORNEK: git checkout ahmet
+
+
+		5. Local branchimde kod yazip versiyon olusturalim
+
+
+		6. Ilk kodu gonderirken kullanmam gereken komut:
+			git push --set-upstream origin branchismi
+			ORNEK: git push --set-upstream origin ahmet
+
+		7. Deneyimli sorumlu kisi github da 2 sey yapar:
+			CREATE PULL REQUEST
+			MERGE PULL REQUEST
+
+		8. LOCAL BRANCHDEKI(ahmet) KODLARI REMOTE MASTERA GONDERME DONGUSU:
+			git checkout ahmet 
+			Kodlarimi yazdim
+			
+			
+		git add .
+		git commit -m "mesaj"
+		git push -> KODLAR LOCAL BRACNHDE AMA MASTER BRANCDE DEGIL
+		
+		pull request
+		New Pull Request
+		Local branch ile master branchi karsilastir
+		Create pull request e tikla
+		Tekrar Create pull request e tikla
+		Merge Pull Request e tikla
+		Congirm merge
+		ISLEM TAMAM
+
+		NOTE: LOCAL MASTERI GUNELLLEMEM GEREKIR
+		git checkout master
+		git pull
+		AN ITIBARIYLE TUM BRANCHLER GUNCEL
